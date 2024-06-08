@@ -36,28 +36,28 @@ class _MyHomePageState extends State<MyHomePage> {
     {
       "title": "Lorem ipsum dolor sit amet Top Stocks",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, tyq Lorem ipsum dolor sit amet, consectetur",
-      "return": "29.77%",
+      "return": "+29.77%",
       "amount": "₹34,567",
       "risk": "Low"
     },
     {
       "title": "Lorem ipsum dolor sit amet Top Stocks",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, tyq Lorem ipsum dolor sit amet, consectetur",
-      "return": "29.77%",
+      "return": "+29.77%",
       "amount": "₹34,567",
       "risk": "Low"
     },
     {
       "title": "Lorem ipsum dolor sit amet Top Stocks",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, tyq Lorem ipsum dolor sit amet, consectetur",
-      "return": "29.77%",
+      "return": "+29.77%",
       "amount": "₹34,567",
       "risk": "Low"
     },
     {
       "title": "Lorem ipsum dolor sit amet Top Stocks",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, tyq Lorem ipsum dolor sit amet, consectetur",
-      "return": "29.77%",
+      "return": "+29.77%",
       "amount": "₹34,567",
       "risk": "Low"
     }
@@ -76,6 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body:ListView.builder(
       itemCount: cardData.length,
       itemBuilder: (context, index) {
+
         return ItemCard(
           title: cardData[index]['title']!,
           description: cardData[index]['description']!,
